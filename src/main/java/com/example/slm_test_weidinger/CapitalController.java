@@ -19,4 +19,11 @@ public class CapitalController {
         return "Paris";
 
     }
+
+    @GetMapping("api/capital/Italy")
+    public String Italy(){
+
+        return "Rome";
+
+    }
 }
